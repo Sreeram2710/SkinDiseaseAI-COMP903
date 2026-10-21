@@ -1,0 +1,44 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Private credentials
+.env
+.env.*
+!.env.example
+kaggle.json
+*.pem
+*.key
+.streamlit/secrets.toml
+
+# Downloaded datasets
+data/
+
+# Trained models
+models/
+*.keras
+*.h5
+*.hdf5
+*.pt
+*.pth
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Temporary files
+*.log
+*.tmp
+
+# Editor and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
