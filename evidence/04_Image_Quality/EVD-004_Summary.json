@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-22T12:32:51.460686",
+  "dataset_path": "C:\\Users\\admin\\Desktop\\SkinDiseaseAI\\data\\IMG_CLASSES",
+  "total_files": 27153,
+  "readable_files": 27153,
+  "corrupt_files": 0,
+  "duplicate_groups": 588,
+  "files_in_duplicate_groups": 1212,
+  "class_counts": {
+    "1. Eczema 1677": 1677,
+    "10. Warts Molluscum and other Viral Infections - 2103": 2103,
+    "2. Melanoma 15.75k": 3140,
+    "3. Atopic Dermatitis - 1.25k": 1257,
+    "4. Basal Cell Carcinoma (BCC) 3323": 3323,
+    "5. Melanocytic Nevi (NV) - 7970": 7970,
+    "6. Benign Keratosis-like Lesions (BKL) 2624": 2079,
+    "7. Psoriasis pictures Lichen Planus and related diseases - 2k": 2055,
+    "8. Seborrheic Keratoses and other Benign Tumors - 1.8k": 1847,
+    "9. Tinea Ringworm Candidiasis and other Fungal Infections - 1.7k": 1702
+  },
+  "image_modes": {
+    "RGB": 27153
+  },
+  "image_formats": {
+    "JPEG": 27153
+  },
+  "top_dimensions": [
+    [
+      "600x450",
+      7461
+    ],
+    [
+      "1024x1024",
+      3947
+    ],
+    [
+      "512x512",
+      3140
+    ],
+    [
+      "720x472",
+      2340
+    ],
+    [
+      "294x222",
+      2031
+    ],
+    [
+      "720x480",
+      1061
+    ],
+    [
+      "1024x680",
+      659
+    ],
+    [
+      "1024x768",
+      598
+    ],
+    [
+      "480x720",
+      535
+    ],
+    [
+      "477x720",
+      333
+    ],
+    [
+      "720x477",
+      316
+    ],
+    [
+      "720x479",
+      264
+    ],
+    [
+      "720x474",
+      230
+    ],
+    [
+      "479x720",
+      197
+    ],
+    [
+      "720x464",
+      173
+    ],
+    [
+      "1024x682",
+      155
+    ],
+    [
+      "720x496",
+      146
+    ],
+    [
+      "720x482",
+      100
+    ],
+    [
+      "1024x685",
+      100
+    ],
+    [
+      "472x720",
+      99
+    ]
+  ],
+  "limitations": [
+    "Exact duplicates are detected using SHA-256.",
+    "Near-duplicate images are not detected.",
+    "Incorrect disease labels are not identified.",
+    "Clinical correctness is not established."
+  ]
+}

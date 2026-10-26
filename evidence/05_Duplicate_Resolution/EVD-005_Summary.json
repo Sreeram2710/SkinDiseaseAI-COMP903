@@ -1,0 +1,105 @@
+{
+  "project": "SkinDiseaseAI COMP903",
+  "created_utc": "2026-10-22T08:27:05.561958+00:00",
+  "random_seed": 42,
+  "original_images": 27153,
+  "original_categories": 10,
+  "unique_content_hashes": 26529,
+  "cross_class_conflict_groups": 117,
+  "excluded_conflicting_images": 240,
+  "excluded_same_class_duplicates": 501,
+  "training_images": 18484,
+  "validation_images": 3957,
+  "test_images": 3971,
+  "total_excluded": 741,
+  "exact_duplicate_leakage_groups": 0,
+  "split_method": "Class-stratified, SHA-256 deduplicated",
+  "limitations": [
+    "Cross-class labels require expert review.",
+    "Only byte-identical duplicates are detected.",
+    "Near-duplicate and patient-level leakage have not been ruled out.",
+    "No clinical validation has been performed."
+  ],
+  "class_distribution": [
+    {
+      "class_name": "1. Eczema 1677",
+      "original_images": 1677,
+      "train": 1068,
+      "validation": 228,
+      "test": 230,
+      "excluded": 151
+    },
+    {
+      "class_name": "10. Warts Molluscum and other Viral Infections - 2103",
+      "original_images": 2103,
+      "train": 1295,
+      "validation": 277,
+      "test": 278,
+      "excluded": 253
+    },
+    {
+      "class_name": "2. Melanoma 15.75k",
+      "original_images": 3140,
+      "train": 2195,
+      "validation": 470,
+      "test": 471,
+      "excluded": 4
+    },
+    {
+      "class_name": "3. Atopic Dermatitis - 1.25k",
+      "original_images": 1257,
+      "train": 804,
+      "validation": 172,
+      "test": 173,
+      "excluded": 108
+    },
+    {
+      "class_name": "4. Basal Cell Carcinoma (BCC) 3323",
+      "original_images": 3323,
+      "train": 2321,
+      "validation": 497,
+      "test": 498,
+      "excluded": 7
+    },
+    {
+      "class_name": "5. Melanocytic Nevi (NV) - 7970",
+      "original_images": 7970,
+      "train": 5576,
+      "validation": 1195,
+      "test": 1196,
+      "excluded": 3
+    },
+    {
+      "class_name": "6. Benign Keratosis-like Lesions (BKL) 2624",
+      "original_images": 2079,
+      "train": 1445,
+      "validation": 309,
+      "test": 311,
+      "excluded": 14
+    },
+    {
+      "class_name": "7. Psoriasis pictures Lichen Planus and related diseases - 2k",
+      "original_images": 2055,
+      "train": 1363,
+      "validation": 292,
+      "test": 293,
+      "excluded": 107
+    },
+    {
+      "class_name": "8. Seborrheic Keratoses and other Benign Tumors - 1.8k",
+      "original_images": 1847,
+      "train": 1276,
+      "validation": 273,
+      "test": 275,
+      "excluded": 23
+    },
+    {
+      "class_name": "9. Tinea Ringworm Candidiasis and other Fungal Infections - 1.7k",
+      "original_images": 1702,
+      "train": 1141,
+      "validation": 244,
+      "test": 246,
+      "excluded": 71
+    }
+  ]
+}
